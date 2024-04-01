@@ -51,6 +51,7 @@ struct ContactView: View {
     }
 }
 
+
 struct ContactView_Previews: PreviewProvider {
     static var previews: some View {
         ContactView(isShowing: Binding.constant(true))
