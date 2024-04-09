@@ -58,8 +58,3 @@ struct ContactView_Previews: PreviewProvider {
             .background(.yellow)
     }
 }
-
-
-
-
-
