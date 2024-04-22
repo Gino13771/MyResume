@@ -82,9 +82,7 @@ struct ContentView: View {
             }
         }
     }
-    
-    
-    
+
     var experienceView: some View {
         VStack (spacing: 0)  {
             ForEach(me.experiences.indices, id: \.self) { index in
