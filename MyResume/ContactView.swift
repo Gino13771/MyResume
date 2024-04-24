@@ -38,6 +38,7 @@ struct ContactView: View {
         .background(RoundedRectangle(cornerRadius: 20).foregroundColor(Color(uiColor: .tertiarySystemBackground)))
         .padding()
     }
+    
     func openUrl(_ url: String) {
         let url = URL(string: url)!
         
